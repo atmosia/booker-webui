@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/atmosia/booker-webui/issues"
   },
-  "homepage": "https://github.com/atmosia/booker-webui#readme"
+  "homepage": "https://github.com/atmosia/booker-webui#readme",
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
 }
