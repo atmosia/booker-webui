@@ -1,4 +1,4 @@
-var app = angular.module("booker", ["ngRoute"]);
+var app = angular.module("booker", ["ngRoute"]); 
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
