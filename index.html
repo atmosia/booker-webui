@@ -32,14 +32,19 @@
         </nav>
         <div class="container">
             <h1>Hello World!</h1>
-    <!--This is the body, text here-->
+            <div ng-view>
+              <!--THIS WILL BE A PARTIAL VIEW PLACE (NG-VIEW)
+              AS IN https://www.w3schools.com/angular/angular_routing.asp
+              AND https://stackoverflow.com/questions/36494842/partial-views-in-angularjs -->
+            </div>
         </div>
         <div class="push">
         </div>
-<div class="footer">
-  <p>Proudly presented by the infoshop geek squad 2017.</p>
-</div>
-
+        <div class="footer">
+          <p>Proudly presented by the infoshop geek squad 2017.</p>
+        </div>
     <script src="/code.js"></script>
+    <!--Angular route API-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
   </body>
 </html>
