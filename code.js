@@ -1,4 +1,4 @@
-var app = angular.module("myApp", ["ngRoute"]);
+var app = angular.module("booker", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
@@ -8,3 +8,5 @@ app.config(function($routeProvider) {
         templateUrl : "something.html"
     });
 });
+
+//ng-app name is booker
